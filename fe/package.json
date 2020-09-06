@@ -1,0 +1,42 @@
+{
+  "name": "mobx-react-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for MobX + React project with Typescript, ES6 compilation and hot code reloading",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "mobx",
+    "starter-kit"
+  ],
+  "author": "Michel Weststrate <mweststrate@gmail.com> (http://github.com/mweststrate)",
+  "license": "MIT",
+  "homepage": "http://mobxjs.github.com/mobx",
+  "devDependencies": {
+    "@types/react-dom": "^16.9.6",
+    "@types/react-router-dom": "^5.1.4",
+    "@types/webpack": "^4.41.10",
+    "css-loader": "^3.5.2",
+    "extract-css-chunks-webpack-plugin": "^4.7.4",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "ts-loader": "6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-bundle-analyzer": "^3.6.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "antd": "^4.1.2",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "5.1.2"
+  }
+}
